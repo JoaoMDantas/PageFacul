@@ -6,7 +6,7 @@
 }
 /*  aqui eu coloquei uma imagem de fundo uso o back-image, além de setar a fonte das letras e cores */
 body {
-    background-image: url("../img/fundo.png");
+    background-image: url("./img/fundo.png");
     background-size: cover;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
