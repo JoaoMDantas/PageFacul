@@ -1,0 +1,88 @@
+/* * usado para colocar um padrão para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  aqui eu coloquei uma imagem de fundo uso o back-image, além de setar a fonte das letras e cores */
+body {
+    background-image: url("/img/fundo.png");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    padding: 15px 0;
+}
+/* aqui eu estou fazendo ajustes em como a lista vai ser exibida na barra de navegação */
+/* como retirar o estilo da lista para não ter bolinhas nem número  e alinha-los horizontalmente */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+/* faz com que fique amarelo ao passar o mouse por cima */
+nav ul li a:hover {
+    color: #ffcc00;
+}
+main {
+    padding: 50px;
+  
+}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: antiquewhite;
+}
+p {
+    font-size: 1.2em;
+    color: #d6cfcf;
+}
+/* definindo o estilo da class container, para que o form fique de forma agradavél na tela */
+/* uso width para definir o tamanho max, e margem para centraliza-lo */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    margin-bottom: 20px;
+}
+/* flex vai organizar em itens  com column para colocar em coluna */
+form {
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
